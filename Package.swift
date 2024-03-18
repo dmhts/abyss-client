@@ -14,6 +14,11 @@ let package = Package(
         .package(url: "https://raw.githubusercontent.com/dmhts/abyss/main/braintree/braintree_ios/Package.git", exact: Version(6, 14, 0))
     ],
     targets: [
-        .target(name: "Main")
+        .target(
+            name: "Main",
+            dependencies: [
+                .product(name: "BraintreeCore", package: "Package")
+            ]
+        )
     ]
 )
