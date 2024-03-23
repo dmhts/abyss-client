@@ -6,19 +6,38 @@ import PackageDescription
 
 let package = Package(
     name: "Client",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS(.v15)],
     products: [
-        .library(name: "Client", targets: ["Main"])
+        .executable(name: "Client", targets: ["Main"]),
+        .library(name: "ABIContractBreakerClient", targets: ["ABIContractBreakerClient"]),
     ],
     dependencies: [
-        .package(url: "https://raw.githubusercontent.com/dmhts/abyss/main/braintree/braintree_ios/Package.git", exact: Version(6, 14, 0))
+        .package(
+            url: "https://raw.githubusercontent.com/dmhts/abyss/main/braintree/braintree_ios/Package.git",
+            exact: Version(6, 14, 0)
+        ),
+        .package(
+            url: "git@github.com:dmhts/abi-contract-breaker.git",
+            exact: Version(1, 0, 1)
+        )
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "Main",
             dependencies: [
-                .product(name: "BraintreeCore", package: "Package")
+                "Client-Compiled-Against-ABIContractBreaker-1-0-0",
+                .product(name: "EvolutionEnabledABIContractBreaker", package: "abi-contract-breaker")
             ]
+        ),
+        .target(
+            name: "ABIContractBreakerClient",
+            dependencies: [
+                .product(name: "EvolutionEnabledABIContractBreaker", package: "abi-contract-breaker")
+            ]
+        ),
+        .binaryTarget(
+            name: "Client-Compiled-Against-ABIContractBreaker-1-0-0",
+            path: "Sources/Client-Compiled-Against-ABIContractBreaker-1-0-0/ABIContractBreakerClient.xcframework"
         )
     ]
 )
