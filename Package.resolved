@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "abi-contract-breaker",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:dmhts/abi-contract-breaker.git",
+      "state" : {
+        "revision" : "e3990fd07ab4fdd8d94c76a219542a3a11ef0a64",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://raw.githubusercontent.com/dmhts/abyss/main/braintree/braintree_ios/Package.git",
+      "state" : {
+        "revision" : "f38990c2d95bbdf2166186442afc8df98d4e5a9e",
+        "version" : "6.14.0"
+      }
+    }
+  ],
+  "version" : 2
+}
