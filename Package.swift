@@ -25,19 +25,25 @@ let package = Package(
         .executableTarget(
             name: "Main",
             dependencies: [
-                "Client-Compiled-Against-ABIContractBreaker-1-0-0",
+                // "Swift510-ABIContractBreakerClient-1-0-0",
+                "Evolution-ABIContractBreakerClient-1-0-0",
+                // This has to be `exact: Version(1, 0, 1)` to introduce ABI incompatibility
                 .product(name: "EvolutionEnabledABIContractBreaker", package: "abi-contract-breaker")
             ]
         ),
         .target(
             name: "ABIContractBreakerClient",
             dependencies: [
-                .product(name: "EvolutionEnabledABIContractBreaker", package: "abi-contract-breaker")
+                .product(name: "Swift510ABIContractBreaker", package: "abi-contract-breaker")
             ]
         ),
         .binaryTarget(
-            name: "Client-Compiled-Against-ABIContractBreaker-1-0-0",
-            path: "Sources/Client-Compiled-Against-ABIContractBreaker-1-0-0/ABIContractBreakerClient.xcframework"
+            name: "Evolution-ABIContractBreakerClient-1-0-0",
+            path: "Sources/Evolution-ABIContractBreakerClient-1-0-0/ABIContractBreakerClient.xcframework"
+        ),
+        .binaryTarget(
+            name: "Swift510-ABIContractBreakerClient-1-0-0",
+            path: "Sources/Evolution-ABIContractBreakerClient-1-0-0/ABIContractBreakerClient.xcframework"
         )
     ]
 )

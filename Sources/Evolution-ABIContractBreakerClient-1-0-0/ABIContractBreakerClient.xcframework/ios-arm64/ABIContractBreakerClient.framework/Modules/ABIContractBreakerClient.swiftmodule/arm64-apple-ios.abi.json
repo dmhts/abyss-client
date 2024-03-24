@@ -1,0 +1,241 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABIContractBreakerClient"
+      },
+      {
+        "kind": "Import",
+        "name": "ABIContractBreaker",
+        "printedName": "ABIContractBreaker",
+        "declKind": "Import",
+        "moduleName": "ABIContractBreakerClient"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABIContractBreakerClient",
+        "printedName": "ABIContractBreakerClient",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "frozenRect",
+            "printedName": "frozenRect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FrozenShape",
+                "printedName": "ABIContractBreaker.FrozenShape",
+                "usr": "s:18ABIContractBreaker11FrozenShapeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24ABIContractBreakerClientAAV10frozenRect0aB011FrozenShapeOyFZ",
+            "mangledName": "$s24ABIContractBreakerClientAAV10frozenRect0aB011FrozenShapeOyFZ",
+            "moduleName": "ABIContractBreakerClient",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nonFrozenRect",
+            "printedName": "nonFrozenRect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NonFrozenShape",
+                "printedName": "ABIContractBreaker.NonFrozenShape",
+                "usr": "s:18ABIContractBreaker14NonFrozenShapeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24ABIContractBreakerClientAAV13nonFrozenRect0aB003NonE5ShapeOyFZ",
+            "mangledName": "$s24ABIContractBreakerClientAAV13nonFrozenRect0aB003NonE5ShapeOyFZ",
+            "moduleName": "ABIContractBreakerClient",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "frozenXYZElectricAuto",
+            "printedName": "frozenXYZElectricAuto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FrozenAuto",
+                "printedName": "ABIContractBreaker.FrozenAuto",
+                "usr": "s:18ABIContractBreaker10FrozenAutoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24ABIContractBreakerClientAAV21frozenXYZElectricAuto0aB006FrozenF0VyFZ",
+            "mangledName": "$s24ABIContractBreakerClientAAV21frozenXYZElectricAuto0aB006FrozenF0VyFZ",
+            "moduleName": "ABIContractBreakerClient",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nonFrozenXYZElectricAuto",
+            "printedName": "nonFrozenXYZElectricAuto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NonFrozenAuto",
+                "printedName": "ABIContractBreaker.NonFrozenAuto",
+                "usr": "s:18ABIContractBreaker13NonFrozenAutoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24ABIContractBreakerClientAAV24nonFrozenXYZElectricAuto0aB003NoneG0VyFZ",
+            "mangledName": "$s24ABIContractBreakerClientAAV24nonFrozenXYZElectricAuto0aB003NoneG0VyFZ",
+            "moduleName": "ABIContractBreakerClient",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nonFinalAuto",
+            "printedName": "nonFinalAuto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NonFinalMyAuto",
+                "printedName": "ABIContractBreaker.NonFinalMyAuto",
+                "usr": "s:18ABIContractBreaker14NonFinalMyAutoC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24ABIContractBreakerClientAAV12nonFinalAuto0aB003None2MyF0CyFZ",
+            "mangledName": "$s24ABIContractBreakerClientAAV12nonFinalAuto0aB003None2MyF0CyFZ",
+            "moduleName": "ABIContractBreakerClient",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24ABIContractBreakerClientAAV",
+        "mangledName": "$s24ABIContractBreakerClientAAV",
+        "moduleName": "ABIContractBreakerClient",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 170,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 5,
+      "value": "\"XYZ\""
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 403,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 419,
+      "length": 6,
+      "value": "192.45"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 5,
+      "value": "\"XYZ\""
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 550,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 566,
+      "length": 6,
+      "value": "192.45"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "StringLiteral",
+      "offset": 668,
+      "length": 10,
+      "value": "\"NonFinal\""
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 692,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/dima.hutsuliak\/Documents\/Projects\/PrecompiledDependencies\/abyss-client\/Sources\/ABIContractBreakerClient\/ABIContractBreakerClient.swift",
+      "kind": "FloatLiteral",
+      "offset": 708,
+      "length": 6,
+      "value": "192.45"
+    }
+  ]
+}

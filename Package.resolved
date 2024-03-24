@@ -5,7 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:dmhts/abi-contract-breaker.git",
       "state" : {
-        "revision" : "e3990fd07ab4fdd8d94c76a219542a3a11ef0a64",
+        "revision" : "35b7c4bc45ec2655a7766aee6d6e2b9eee380498",
         "version" : "1.0.1"
       }
     },
